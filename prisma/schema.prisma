@@ -12,8 +12,8 @@ datasource db {
 }
 
 model Documents {
-  id          String   @id @default(cuid())
+  id         String   @id @default(cuid())
   name       String?
-  url       String
-  created_at   DateTime @default(now())
+  url        String
+  created_at DateTime @default(now())
 }
